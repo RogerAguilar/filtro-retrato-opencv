@@ -1,35 +1,68 @@
-# 🖼️ proyecto_filtro
+ 🎥 Proyecto Final de Procesamiento de Imágenes Digitales: Filtro de Retrato en Tiempo Real
 
-**Aplicación en Python que aplica un filtro de retrato en tiempo real usando OpenCV, morfología matemática y procesamiento de imágenes.**
+📌 Objetivo
 
-## 📸 Descripción
-
-Este proyecto utiliza la cámara web para capturar video en tiempo real y aplicar un filtro tipo retrato que difumina el fondo mientras mantiene el rostro enfocado. Se utilizan técnicas como:
-
-- Detección de rostros con Haar cascades.
-- Segmentación de fondo mediante operaciones morfológicas.
-- Difuminado selectivo usando máscaras.
-- Procesamiento eficiente con OpenCV.
-
-🚀 Características
-
-- ✅ Captura de video en tiempo real
-- ✅ Detección y seguimiento de rostros
-- ✅ Filtro tipo "modo retrato" al estilo de smartphones modernos
-- ✅ Interfaz simple y eficiente
-- ✅ Código modular y bien documentado
+Desarrollar un sistema en Python que aplique un filtro de desenfoque de fondo en tiempo real a través de una cámara web, permitiendo además la aplicación de otros filtros como brillo, contraste y ajuste de color. Esta herramienta está orientada a mejorar la experiencia en videollamadas, transmisiones en vivo y fotografía digital.
 
 
 
- 🛠️ Tecnologías Utilizadas
+🧠 Descripción del Proyecto
 
-- Python 3.x
-- OpenCV
-- NumPy
+El sistema está diseñado para:
+- Capturar video en tiempo real.
+- Identificar el sujeto en primer plano usando segmentación.
+- Desenfocar el fondo para crear un efecto tipo "retrato".
+- Aplicar filtros adicionales en tiempo real (brillo, contraste, color).
+- Ofrecer una interfaz para controlar y ajustar los filtros.
 
-## 🧪 Requisitos
+🧩 Componentes del Proyecto
 
-Instala los paquetes necesarios con:
+1. 📷 Captura de Video
+   Captura en tiempo real utilizando una cámara web.
 
-```bash
-pip install -r requirements.txt
+2. 🧍 Segmentación del Sujeto  
+   Detección y separación del sujeto del fondo usando técnicas de segmentación.
+
+3. 🌫️ Desenfoque del Fondo 
+   Aplicación de filtros de desenfoque sobre el fondo, manteniendo al sujeto enfocado.
+
+4. 🎛️ Filtros Adicionales en Tiempo Real  
+   - Ajustes de brillo
+   - Ajustes de contraste
+   - Modificaciones de color
+
+5. 🖥️ Interfaz Gráfica de Usuario (GUI)  
+   Control dinámico de filtros mediante una GUI amigable.
+
+
+
+🛠️ Tecnologías Utilizadas
+
+- Lenguaje de programación: Python 🐍  
+- Bibliotecas: 
+  - [OpenCV](https://opencv.org/) – procesamiento de imágenes  
+  - [NumPy](https://numpy.org/) – manipulación de datos  
+  - [MediaPipe](https://mediapipe.dev/) – segmentación y visión por computadora  
+- IDE:PyCharm  
+- Hardware:Cámara Web
+
+
+
+ 👨‍💻 Autor
+
+> Roger Jesús Aguilar Uicab
+> Estudiante de Ingeniería en Software, 8º semestre  
+> Universidad Tecnológica
+
+
+
+💡 Aplicaciones Reales
+
+- Videollamadas más profesionales.
+- Transmisiones en vivo con fondos limpios.
+- Mejora de fotografías personales.
+- Herramientas para creación de contenido digital.
+
+
+
+
