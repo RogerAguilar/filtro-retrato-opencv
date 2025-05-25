@@ -52,7 +52,7 @@ El sistema está diseñado para:
 
 > Roger Jesús Aguilar Uicab
 > Estudiante de Ingeniería en Software, 8º semestre  
-> Universidad Tecnológica
+> Universidad Autonoma De Yucatan.
 
 
 
